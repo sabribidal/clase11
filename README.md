@@ -22,3 +22,7 @@ Instantaneamente recomendamos pasar todo al repo (3er estado). Para eso usamos e
 Al ejecutar este ultimo comando, se nos genera una version y nos posiciona automaticamente en el working directory para volver a empezar.
 Con el comando git status vamos corroborando el estado de nuestros archivos.
 Con el comando git log vamos a listar todos los commits hechos previamente.
+Con el comando git branch nombreRama creamos una copia fiel del original.
+Con el comando git checkout nombreRama nos movemos hasta la rama creada (o hacia la copia creada previamente).
+Trabajamos con el codigo, hacemos el pasaje de estado (git add y git commit).
+Y si queremos unir el codigo de la rama con el codigo que esta en nuestro master nos tenemos que para sobre el master con el git checkout master y luego ejecutar el comando git merge nombreRama para unir el master y la rama.
